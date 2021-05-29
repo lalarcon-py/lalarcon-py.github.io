@@ -1,2 +1,2 @@
 # portfolio
-This is my onling portfolio made with DJANGO, HTML and CSS
+This is my online portfolio made with DJANGO, HTML and CSS
