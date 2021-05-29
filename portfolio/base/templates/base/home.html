@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	{% load static %}
+	<title>Luis Alarcon</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/profile.png' %}" >
+					<hr>
+					<h4>Hi I'm Luis!</h4>
+					<p>I love coding, doing research and collaborating</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>My First Job as a Developer</h4>
+					<hr>
+					<p>After 2 long, strenuous months of learning the basics of Python, and coding in general, I had successfully commissioned my FIRST project. On fiverr a client had asked me to build him a checkout bot for a popular website. The object of the bot was to purchase a limited edition item before other people or other bots could get to it before he could to turn a profit.</p>
+					<p>Through the process of building this project, I encountered many issues of networking nature. Many of which included bot detection, which was easily bypassed by importing time to just wait a few moments before any additional inputs. This is where my networking past came in handy, big time.</p>
+
+					<p>From this you’ll see that I’m someone that if given the chance will prove that I am capable of shining where the light has not yet been shone.</p>
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Freelance Developer</p>
+					<p>I have developed many automated programs. These are usually targeted at making monotonous tasks a thing of the past. My most recent project is a script that automatically levels my character in an online MMORPG.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, HTML/CSS, Selenium</p>
+					<p>PS: Working on Postgres, JavaScript and Machine Learning.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>Reverse Engineer & Build Ugly Prototypes First.</p>
+
+					<p>I can learn just about anything by having a final product to tear apart piece by piece. I break the code where I need to figure out why things work the way they do.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+					<p>Aside from building small projects I would love to enter a position where I can be part of a bigger team & learn from others with more experience than myself.</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
